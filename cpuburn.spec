@@ -2,7 +2,7 @@ Summary:	CPU maximum load (heat) stability test
 Summary(pl):	Testy stabilno¶ci przy maksymalnym obci±¿eniu procesora
 Name:		cpuburn
 Version:	1.4
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		Applications
 Source0:	http://users.ev1.net/~redelm/%{name}_1_4_tar.gz
