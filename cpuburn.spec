@@ -26,7 +26,7 @@ Use it at your own risk!!
 cpuburn jest zestawem napisanych w asemblerze zadañ stworzonych, aby
 stworzyæ najwiêksze mo¿liwe obci±¿enie cieplne dla procesora oraz
 komponentów p³yty g³ównej, poprzez mieszankê instrukcji FPU i ALU
-zoptymizowanych pod P6/P5/K6/K7. S± tak¿e zadania do testowania
+zoptymalizowanych pod P6/P5/K6/K7. S± tak¿e zadania do testowania
 kontrolerów pamiêci RAM (burnMMX/BX). Proszê mieæ na uwadze, ¿e
 program zosta³ stworzony, aby bardzo mocno obci±¿aæ ko¶ci. S³abo
 ch³odzone, przetaktowane lub w inny sposób s³abe systemy mog± nie
