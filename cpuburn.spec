@@ -6,6 +6,7 @@ Release:	2
 License:	GPL v2
 Group:		Applications
 Source0:	http://users.ev1.net/~redelm/%{name}_1_4_tar.gz
+# Source0-md5:	f9bb5ff68afb6ccfca11718c90bcab68
 Patch0:		%{name}-makefile.patch
 URL:		http://users.ev1.net/~redelm/
 ExclusiveArch:	i586 i686 athlon
