@@ -38,7 +38,9 @@ tak¿e trwa³e uszkodzenia sprzêtu. U¿ywasz na w³asne ryzyko!!
 %patch0 -p1
 
 %build
-%{__make} CC="%{__cc}"
+%{__make} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
