@@ -1,5 +1,5 @@
 Summary:	CPU maximum load (heat) stability test
-Summary(pl.UTF-8):   Testy stabilności przy maksymalnym obciążeniu procesora
+Summary(pl.UTF-8):	Testy stabilności przy maksymalnym obciążeniu procesora
 Name:		cpuburn
 Version:	1.4
 Release:	3
