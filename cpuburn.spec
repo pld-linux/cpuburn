@@ -1,5 +1,5 @@
 Summary:	CPU maximum load (heat) stability test
-Summary(pl):	Testy stabilno¶ci przy maksymalnym obci±¿eniu procesora
+Summary(pl.UTF-8):   Testy stabilnoÅ›ci przy maksymalnym obciÄ…Å¼eniu procesora
 Name:		cpuburn
 Version:	1.4
 Release:	3
@@ -22,16 +22,16 @@ or otherwise weak systems may fail, causing data loss (filesystem
 corruption) and possibly permanent damage to electronic components.
 Use it at your own risk!!
 
-%description -l pl
-cpuburn jest zestawem napisanych w asemblerze zadañ stworzonych, aby
-stworzyæ najwiêksze mo¿liwe obci±¿enie cieplne dla procesora oraz
-komponentów p³yty g³ównej, poprzez mieszankê instrukcji FPU i ALU
-zoptymalizowanych pod P6/P5/K6/K7. S± tak¿e zadania do testowania
-kontrolerów pamiêci RAM (burnMMX/BX). Proszê mieæ na uwadze, ¿e
-program zosta³ stworzony, aby bardzo mocno obci±¿aæ ko¶ci. S³abo
-ch³odzone, przetaktowane lub w inny sposób s³abe systemy mog± nie
-prze¿yæ testów, powoduj±c straty danych (popsuty system plików), a
-tak¿e trwa³e uszkodzenia sprzêtu. U¿ywasz na w³asne ryzyko!!
+%description -l pl.UTF-8
+cpuburn jest zestawem napisanych w asemblerze zadaÅ„ stworzonych, aby
+stworzyÄ‡ najwiÄ™ksze moÅ¼liwe obciÄ…Å¼enie cieplne dla procesora oraz
+komponentÃ³w pÅ‚yty gÅ‚Ã³wnej, poprzez mieszankÄ™ instrukcji FPU i ALU
+zoptymalizowanych pod P6/P5/K6/K7. SÄ… takÅ¼e zadania do testowania
+kontrolerÃ³w pamiÄ™ci RAM (burnMMX/BX). ProszÄ™ mieÄ‡ na uwadze, Å¼e
+program zostaÅ‚ stworzony, aby bardzo mocno obciÄ…Å¼aÄ‡ koÅ›ci. SÅ‚abo
+chÅ‚odzone, przetaktowane lub w inny sposÃ³b sÅ‚abe systemy mogÄ… nie
+przeÅ¼yÄ‡ testÃ³w, powodujÄ…c straty danych (popsuty system plikÃ³w), a
+takÅ¼e trwaÅ‚e uszkodzenia sprzÄ™tu. UÅ¼ywasz na wÅ‚asne ryzyko!!
 
 %prep
 %setup  -q
