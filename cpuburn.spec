@@ -8,6 +8,7 @@ Group:		Applications
 Source0:	http://pages.sbcglobal.net/redelm/%{name}_1_4_tar.gz
 # Source0-md5:	f9bb5ff68afb6ccfca11718c90bcab68
 Patch0:		%{name}-makefile.patch
+Patch1:		%{name}-vars.patch
 URL:		http://pages.sbcglobal.net/redelm/
 ExclusiveArch:	i486 i586 i686 athlon %{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -38,6 +39,7 @@ także trwałe uszkodzenia sprzętu. Używasz na własne ryzyko!!
 %prep
 %setup  -q
 %patch0 -p1
+%patch1 -p1
 
 %build
 %{__make} \
