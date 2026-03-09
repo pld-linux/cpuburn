@@ -2,7 +2,7 @@ Summary:	CPU maximum load (heat) stability test
 Summary(pl.UTF-8):	Testy stabilności przy maksymalnym obciążeniu procesora
 Name:		cpuburn
 Version:	1.4
-Release:	6
+Release:	7
 License:	GPL v2
 Group:		Applications
 Source0:	http://pages.sbcglobal.net/redelm/%{name}_1_4_tar.gz
@@ -12,6 +12,7 @@ Patch1:		%{name}-vars.patch
 URL:		http://pages.sbcglobal.net/redelm/
 ExclusiveArch:	i486 i586 i686 athlon %{x8664}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+%define		_enable_debug_packages	0
 
 %define		specflags_x86_64	-m32
 
